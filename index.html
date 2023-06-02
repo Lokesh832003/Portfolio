@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto+Serif:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="intro-box">
+            <!--div class="hc-div">
+                <img src="./html-css.png" height="70px" class="icon"/>
+            </div-->
+            <div class="image">
+                <img src="./images/pic2.jpg" height="300" alt = "picture"/>
+            </div>
+            <div class="summary">
+                <p>
+                    I am K. Lokesh and I am programmer with a passion for learning new things. I am skilled in solving any type of problems and thinking quickly. 
+                    My hobbies include reading and playing video games.
+                </p>
+            </div>
+            <div class="py-div">
+                <img src="./images/python.png" height="70px" class="icon"/>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="info-box">
+            <div id="edu">
+                <p class="heading">Education</p>
+                <p class="text-pad info"><i>2008 - 2020</i> : Kendriya Vidyalaya </p>
+                <p class="info"><i>2020 - Present</i> : Vellore Institute of Technology</p>
+            </div>  
+            <div>
+                <p class="heading">Work Experience</p>
+                <p class="text-pad info">SmartInternz - Artificial Intelligence Externship</p>
+            </div>
+            <div>
+                <p class="heading">Certifications</p>
+                <p class="text-pad info">SmartInternz - Artificial Intelligence Externship Certificate </p>
+                <p class="info">Google Cloud Foundation Certificate</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="about-container">
+            <div class="about-head heading">
+                <h2>About Me</h2>
+            </div>
+            <div>
+                <p class="about-text">
+                    Hello, My name is Lokesh and I'm a passionate programmer. I am currently a 4th year student in VIT Vellore pursuing B.Tech CSE. 
+                    I am interested in programming with Python but I can also work in other programming languages such as Java, C/C++. I am currently working on improving
+                    my web development skills and learning MERN Stack. I'm a hardworker and a multitasker. I can stay focused on a single project for long periods of time. 
+                    My hobbies are reading and playing video games, especially indie games and I would like to learn cooking as well.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="proj-container">
+            <div class="projects">
+                <h2 class="heading">Projects</h2>
+            </div>
+            <div class="proj-flex">
+                <div class="element">
+                    <a href="https://github.com/Lokesh832003/Hand_Gesture_Media_Player"><h3 class="sub-heading">Hand-Gesture Controlled Media Player</h3></a>
+                    <p class="text-pad info">
+                        I made this project for my IWP course. This project makes use of different concepts and languages to create a website that consists of a music player that can
+                        be controlled by hand gestures. For example, showing a fist to the camera will Play/Pause the music. This makes use of Deep Learning and CNN to achieve this  
+                    </p>
+                    <div class="img-center">
+                        <img src="./images/music_page.png" alt="music website page" class="proj-image"/>
+                    </div>
+                </div>
+                <div class="element"> 
+                    <a href="https://github.com/Lokesh832003/Parallel_Image_Editing"><h3 class="sub-heading">Parallel Image Editing Algorithms</h3></a>
+                    <p class="text-pad info">
+                        In this project, the program will take any image as an input and produce 5 other images with various properties(Gaussian blur, Mirror function, 
+                        Negation function, Grayscaling, Saturation). This is done in a Parallel Implementation by making use of OpenMP and parallelizes the various image processing functions and executes them in multiple threads
+                    </p>
+                    <div class="img-center">
+                        <img src="./images/parallel_page.png" alt="parallel image editing page" class="proj-image"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="skills-container">
+            <div class="heading skills-head">
+                <h2>Skills</h2>
+            </div>
+                <div class="skill-box">
+                    <p class="skills-title"><b>Technical skills -</b></p>
+                    <p>
+                        <ul>
+                            <li>Python</li>
+                            <li>Java</li>
+                            <li>C/C++</li>
+                            <li>HTML, CSS, JS</li>
+                            <li>Neural networks</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="skill-box">
+                    <p class="skills-title"><b>Soft skills -</b></p>
+                    <p>
+                        <ul>
+                            <li>Problem Solving</li>
+                            <li>Reasoning  </li>
+                            <li>Adaptability</li>
+                            <li>Critical Thinking</li>
+                            <li>Fluent in English, Hindi and Tamil</li>
+                            <li>Partially good at Telugu and Japanese</li>
+                        </ul>
+                    </p>
+                </div>
+        </div>  
+    </section>
+
+    <section class="foot-contain">
+        <div class="container">
+            <footer class="py-3">
+            <ul class="nav justify-content-center pb-3 mb-3">
+                <li class="nav-item"><a href="https://github.com/Lokesh832003" target=”_blank” class="nav-link px-2 text-body-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                  </svg></a></li>
+                <li class="nav-item"><a href="https://www.linkedin.com/in/lokesh-k-3a497624b/" target=”_blank” class="nav-link px-2 text-body-secondary">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+                  </svg></a></li>
+            </ul>
+            <p class="text-center text-body-secondary">©Lokesh, All rights reserved</p>
+            </footer>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
